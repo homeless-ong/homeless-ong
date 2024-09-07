@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .header {
+            background-color: #FBFDF2;
+            padding: 10px;
+        }
+        .header img {
+            height: 40px;
+        }
+        .main-content {
+            margin-top: 20px;
+        }
+        .left-content img {
+            width: 45%;
+            height: auto;
+        }
+        .card-text {
+            margin-top: 10px;
+        }
+        .qrcode-image {
+            max-width: 50px;
+            max-height: 50px;
+        }
+        .text-foco {
+            font-size: 25px;
+            font-style: italic;
+            font-weight: 500;
+
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header d-flex justify-content-between align-items-center">
+        <img src="resoruces/images/logo-icon.jpg" alt="Logo">
+        <img src="resoruces/images/name.jpg" alt="title">
+        <button class="btn btn-outline-light d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">&#9776;</span>
+        </button>
+    </header>
+
+    <div class="container main-content">
+        <div class="row">
+            <div class="col-md-7 left-content">
+                <img src="resoruces/images/qrcode-exemplo.png" alt="Imagem Exemplo" id="qrcode-image">
+                <p class="card-text text-foco">
+                    Faça sua parte para ajudar os moradores de rua 
+                </p>
+            </div>
+            
+            <div class="col-md-5">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <p class="card-text">Os moradores de rua são pessoas que, por diversas razões, se encontram em situação de vulnerabilidade, vivendo nas ruas e carecendo de abrigo, alimentação, saúde e dignidade. As condições que levam alguém a essa realidade podem variar, incluindo problemas econômicos, familiares, de saúde mental ou dependência química.</p>
+                    </div>
+                </div>
+                
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <p class="card-text">Ajudar moradores de rua pode ser uma maneira eficaz de contribuir para a melhoria de suas condições de vida. Uma forma de apoio é fazer doações financeiras a instituições de caridade que trabalham diretamente com essa população. Esses recursos podem ser usados para fornecer refeições, roupas, abrigo temporário, assistência médica e programas de reabilitação.</p>
+                    </div>
+                </div>
+                
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <p class="card-text">Além de doações, é fundamental promover a conscientização sobre a situação dos moradores de rua, pois isso ajuda a desmistificar preconceitos e a mobilizar mais pessoas em prol da causa. Cada pequena ação conta, e juntos podemos ajudar a criar um impacto positivo na vida dessas pessoas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
